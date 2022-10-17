@@ -19,6 +19,9 @@ gem "bootsnap", require: false
 gem "jquery-rails"
 gem 'bootstrap'
 gem 'sassc-rails'
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 
 group :development, :test do
