@@ -22,6 +22,8 @@ gem 'sassc-rails'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate', '1.0.0'
+gem 'active_storage_validations', '1.0.2'
+gem 'image_processing'
 
 
 group :development, :test do
